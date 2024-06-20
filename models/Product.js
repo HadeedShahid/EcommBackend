@@ -1,7 +1,7 @@
 const { timeStamp } = require("console");
 const mongoose = require("mongoose");
 
-const productScehma = new mongoose.Schema.Schema(
+const productScehma = new mongoose.Schema(
   {
     title: { type: String, required: true, unique: true },
     desc: { type: String, required: true },

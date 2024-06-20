@@ -1,7 +1,7 @@
 const { timeStamp } = require("console");
 const mongoose = require("mongoose");
 
-const cartScehma = new mongoose.Schema.Schema(
+const cartScehma = new mongoose.Schema(
   {
     userId: { type: String, required: true },
     products: [
